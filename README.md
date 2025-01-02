@@ -48,7 +48,7 @@ sequenceDiagram
 - claimNFT(index, signature): Mints a new basic NFT
 - evolveNFTs(): Combines 2 basic NFTs into 1 evolved NFT
 - getUserBalances(address): Returns balance of basic and evolved NFTs
-- 
+ 
 ## API Endpoints
 - POST /api/v1/generate-signature: Generates signature for NFT minting
     - Request body: { userAddress: string }
@@ -60,6 +60,6 @@ sequenceDiagram
 - Web3Modal for secure wallet connections
 
 ## Github repos
-FE: https://github.com/datphamcode295/snft-fe
-BE: https://github.com/datphamcode295/snft-be
-Smart contract: https://github.com/datphamcode295/EvolvingERC1155
+- FE: https://github.com/datphamcode295/snft-fe
+- BE: https://github.com/datphamcode295/snft-be
+- Smart contract: https://github.com/datphamcode295/EvolvingERC1155
